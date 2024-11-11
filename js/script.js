@@ -1,6 +1,7 @@
 function createCookie() {
+    name = document.getElementById('nameCookie').value;
     val = document.getElementById('valueCookie').value;
-    document.cookie = "UserTest=" + val
+    document.cookie = name + "=" + val
 }
 
 function readCookie() {
@@ -9,5 +10,6 @@ function readCookie() {
 
 function deleteCookie() {
     alert("Your sure?")
-    document.cookie = "UserTest=" + ' '
+    document.cookie = " "
+    alert("Cookie deleted!")
 }
