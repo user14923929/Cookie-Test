@@ -4,7 +4,7 @@ function createCookie() {
 }
 
 function readCookie() {
-    alert(val)
+    alert(document.cookie)
 }
 
 function deleteCookie() {
